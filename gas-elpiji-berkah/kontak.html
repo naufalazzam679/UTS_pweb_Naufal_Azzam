@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informasi alamat, media sosial, dan formulir kontak Gas Elpiji Berkah.">
+    <title>Kontak | Gas Elpiji Berkah</title>
+    <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="site-header"><div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Gas Elpiji Berkah, beranda"><img src="img/logo.svg" alt="" width="44" height="44"><span>Gas Elpiji <strong>Berkah</strong></span></a>
+        <button class="nav-toggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+        <nav class="main-nav" id="main-nav" aria-label="Navigasi utama"><ul><li><a href="index.html">Beranda</a></li><li><a href="tentang.html">Tentang</a></li><li><a href="katalog.html">Katalog</a></li><li><a href="kontak.html" aria-current="page">Kontak</a></li></ul></nav>
+    </div></header>
+
+    <main>
+        <section class="page-hero"><div class="container"><p class="eyebrow">Hubungi kami</p><h1>Kami siap menerima pertanyaan</h1><p>Gunakan informasi kontak contoh berikut sebagai panduan untuk mengisi data usaha yang sebenarnya.</p></div></section>
+        <section class="section"><div class="container contact-layout">
+            <div class="contact-details"><p class="eyebrow">Informasi usaha</p><h2>Kontak dan lokasi</h2>
+                <article class="contact-item"><span class="contact-icon" aria-hidden="true">⌖</span><div><h3>Alamat</h3><p>Isi alamat lengkap usaha, kelurahan, kecamatan, dan kota/kabupaten.</p></div></article>
+                <article class="contact-item"><span class="contact-icon" aria-hidden="true">☎</span><div><h3>Telepon / WhatsApp</h3><p>Ganti dengan nomor telepon atau WhatsApp usaha yang aktif.</p></div></article>
+                <article class="contact-item"><span class="contact-icon" aria-hidden="true">✉</span><div><h3>Email</h3><p>namausaha@example.com (ganti dengan email usaha).</p></div></article>
+                <article class="contact-item"><span class="contact-icon" aria-hidden="true">◎</span><div><h3>Media sosial</h3><p>Instagram: @namausaha (ganti dengan akun resmi usaha).</p></div></article>
+                <div class="map-panel"><h3>Peta lokasi usaha</h3><p class="muted">Peta ini masih berupa contoh pencarian. Ubah ke alamat usaha yang sebenarnya.</p>
+                    <iframe title="Peta contoh lokasi usaha, silakan ganti dengan alamat UMKM" src="https://www.google.com/maps?q=lokasi%20usaha%20anda&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                </div>
+            </div>
+            <section class="contact-form-panel" aria-labelledby="form-title"><p class="eyebrow">Formulir pesan</p><h2 id="form-title">Kirim pertanyaan</h2><p class="muted">Isi semua kolom. Kolom bertanda wajib akan diperiksa oleh browser.</p>
+                <form id="contact-form" action="#" method="get" novalidate>
+                    <div class="form-field"><label for="nama">Nama lengkap <span aria-hidden="true">*</span></label><input type="text" id="nama" name="nama" placeholder="Masukkan nama" required minlength="2" maxlength="60" aria-describedby="nama-error"><small class="field-error" id="nama-error"></small></div>
+                    <div class="form-field"><label for="email">Email <span aria-hidden="true">*</span></label><input type="email" id="email" name="email" placeholder="nama@email.com" required maxlength="100" aria-describedby="email-error"><small class="field-error" id="email-error"></small></div>
+                    <div class="form-field"><label for="telepon">Nomor HP <span aria-hidden="true">*</span></label><input type="tel" id="telepon" name="telepon" placeholder="081234567890" pattern="[0-9]{10,13}" title="Masukkan 10 sampai 13 digit angka tanpa spasi" required aria-describedby="telepon-error"><small class="field-error" id="telepon-error"></small></div>
+                    <div class="form-field"><label for="keperluan">Pilihan keperluan <span aria-hidden="true">*</span></label><select id="keperluan" name="keperluan" required aria-describedby="keperluan-error"><option value="">Pilih keperluan</option><option value="informasi-produk">Informasi produk</option><option value="cek-stok-harga">Cek stok dan harga</option><option value="pengantaran">Layanan pengantaran</option><option value="lainnya">Lainnya</option></select><small class="field-error" id="keperluan-error"></small></div>
+                    <div class="form-field"><label for="pesan">Pesan <span aria-hidden="true">*</span></label><textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pertanyaanmu (minimal 10 karakter)" required minlength="10" maxlength="500" aria-describedby="pesan-error"></textarea><small class="field-error" id="pesan-error"></small></div>
+                    <button class="button button-primary form-submit" type="submit">Kirim Pesan</button>
+                    <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+                    <p class="form-disclaimer">Catatan: formulir ini merupakan demo front-end. Pesan belum dikirim ke email atau server.</p>
+                </form>
+            </section>
+        </div></section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-inner"><div><a class="brand brand-footer" href="index.html"><img src="img/logo.svg" alt="" width="38" height="38"><span>Gas Elpiji <strong>Berkah</strong></span></a><p>Profil UMKM penyedia gas elpiji.</p></div><p class="copyright">&copy; <span class="current-year">2026</span> Gas Elpiji Berkah. Konten contoh proyek.</p></div></footer>
+</body>
+</html>

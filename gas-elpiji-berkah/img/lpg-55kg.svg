@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+<title id="title">Ilustrasi tabung 5,5 Kg</title><desc id="desc">Gambar vektor tabung gas berwarna #1679a5 dengan label 5,5 Kg.</desc>
+<ellipse cx="150" cy="267" rx="82" ry="13" fill="#dce7e0"/>
+<path d="M126 34h48v17h-48z" fill="#718078"/><path d="M118 50h64v13h-64z" fill="#596b61"/>
+<path d="M101 66h98c9 0 16 8 16 17v143c0 19-15 34-34 34h-62c-19 0-34-15-34-34V83c0-9 7-17 16-17z" fill="#1679a5" stroke="#33483e" stroke-width="5"/>
+<path d="M92 92c0-11 8-20 19-20h78c11 0 19 9 19 20v18H92z" fill="rgba(255,255,255,.14)"/>
+<path d="M107 112h86v93h-86z" rx="9" fill="#fff" opacity=".94"/>
+<rect x="118" y="124" width="64" height="8" rx="4" fill="#f2b544"/>
+<text x="150" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#145b45">5,5 Kg</text>
+<text x="150" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" letter-spacing="1" fill="#66756e">GAS LPG</text>
+<path d="M112 220h76" stroke="rgba(255,255,255,.35)" stroke-width="6" stroke-linecap="round"/>
+<path d="M131 34v-10h38v10" fill="none" stroke="#596b61" stroke-width="7" stroke-linecap="round"/>
+</svg>
